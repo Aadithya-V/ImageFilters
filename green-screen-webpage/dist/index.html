@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Green Screen Webpage</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head><title>Green Screen Algorithm</title>
+
+  <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"> </script>
+  
+  
+</head>
+
+<body>
+  
+  <u><h1>Green Screen Program</h1></u>
+  
+  <br>
+  <br>
+  <br>
+  
+   <canvas id="can1"></canvas>
+   <canvas id="can2"></canvas>
+  
+  <br>
+  <br>
+  <p>
+  
+    <label>Foreground Image &nbsp</label>
+   
+    <input type="file" multiple="false" accept="img/*" id="fgimage"
+         onchange="uploadFgimage()">
+  
+    <label>Background Image &nbsp</label>
+ 
+    <input type="file" multiple="false" accept="img/*" id="bgimage"
+         onchange="uploadBgimage()">
+    
+    <br>
+    <br>
+    <label><h4><em>Run Program:</em></h4>
+    
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+ 
+     <input type="button" value="Create Composite" id="compb" onclick="createComposite()">
+  
+  
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    
+    <input type="button" value="Clear Canvases" id="clrcv" onclick="clearCanvases()">
+  
+  </p>
+  
+  
+  
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
